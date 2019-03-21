@@ -1,0 +1,8 @@
+创建文件夹
+1.变为仓库  输入命令git init
+2.告诉仓库添加了一个文件夹 git add 0321.txt
+3.获取仓库地址 git remote add origin git@github.com:599588068/git.git
+4.删除仓库地址 git remote rm origin（正常步骤：可不执行）
+5.提交git commit -m '1'
+6.git push git@github.com:599588068/git.git
+7.强制提交 git push -u origin master -f
